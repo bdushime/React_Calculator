@@ -14,18 +14,24 @@ function App() {
         <div className="calculator">
         <div className="display">{input}</div>
         <div className="buttons">
-          <Button label="1" onClick={handleButtonClick} />
-          <Button label="2" onClick={handleButtonClick} />
-          <Button label="3" onClick={handleButtonClick} />
-          <Button label="+" onClick={handleButtonClick} />
+          <Button label="AC" onClick={handleButtonClick} />
+          <Button label="+/-" onClick={handleButtonClick} />
+          <Button label="%" onClick={handleButtonClick} />
+          <Button label="/" onClick={handleButtonClick} />
+          <Button label="7" onClick={handleButtonClick} />
+          <Button label="8" onClick={handleButtonClick} />
+          <Button label="9" onClick={handleButtonClick} />
+          <Button label="x" onClick={handleButtonClick} />
           <Button label="4" onClick={handleButtonClick} />
           <Button label="5" onClick={handleButtonClick} />
           <Button label="6" onClick={handleButtonClick} />
           <Button label="-" onClick={handleButtonClick} />
-          <Button label="7" onClick={handleButtonClick} />
-          <Button label="8" onClick={handleButtonClick} />
-          <Button label="9" onClick={handleButtonClick} />
-          <Button label="/" onClick={handleButtonClick} />
+          <Button label="1" onClick={handleButtonClick} />
+          <Button label="2" onClick={handleButtonClick} />
+          <Button label="3" onClick={handleButtonClick} />
+          <Button label="+" onClick={handleButtonClick} />
+          <Button className="zero" label="0" onClick={handleButtonClick} />
+          <Button label="=" onClick={handleButtonClick} />
           <Button label="C" onClick={() => setInput('')} />
         </div>
       </div>

@@ -3,7 +3,7 @@ export default function Button(props) {
     <>
       <div className="Parent">
         <div className="Child" onClick={() => props.onClick(props.label)}>
-          {props.label}
+          <span className="button-label">{props.label}</span> 
         </div>
       </div>
     </>

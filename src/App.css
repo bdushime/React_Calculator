@@ -49,3 +49,12 @@
   
   
 }
+
+.button-label {
+  font-weight: bold;
+  color: black;
+}
+
+.zero {
+  grid-column: span 2;
+}
