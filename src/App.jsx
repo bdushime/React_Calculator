@@ -36,11 +36,13 @@ function App() {
       return;
     }
 
+    console.log(result)
+
     setInput(String(result));
   }
 
   return (
-    <>
+   
       <div className="calculator">
         <div className="display">{input}</div>
         <div className="buttons">
@@ -64,7 +66,7 @@ function App() {
           <Button label="=" onClick={handleOperation} />
         </div>
       </div>
-    </>
+    
   );
 }
 
